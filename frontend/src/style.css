@@ -1,0 +1,31 @@
+:root {
+  font-family: 'Segoe UI', 'IBM Plex Sans', 'Noto Sans', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #12201a;
+  background:
+    radial-gradient(circle at top left, rgba(61, 107, 85, 0.12), transparent 40%),
+    linear-gradient(180deg, #f3f7f4 0%, #e7eee9 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+button {
+  font: inherit;
+}
